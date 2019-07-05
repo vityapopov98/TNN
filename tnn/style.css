@@ -39,7 +39,7 @@ img{
 
 .card-title-custom{
     font-weight: 700;
-    text-shadow: 2px 2px 5px #000000d6;
+    /* text-shadow: 2px 2px 5px #000000d6; */
     position: absolute;
     bottom: 2rem !important;
 }
@@ -47,7 +47,7 @@ img{
     font-size: 3rem !important;
 }
 .card-text-custom{
-    text-shadow: 2px 2px 5px #000000;
+    /* text-shadow: 2px 2px 5px #000000; */
     position: absolute;
     bottom: 0 !important;
 }
@@ -59,6 +59,15 @@ img{
 .banner-card{
     height: 100%;
     box-sizing: border-box;
+}
+.card-img-overlay-custom{
+    position: absolute;
+    padding: 1.25rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background-image: linear-gradient(to top, #000000a3, #ffffff00)
 }
 /* .banner{
     height: 60vh;
